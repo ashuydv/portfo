@@ -2,9 +2,7 @@ import React from 'react'
 import Card from 'components/Card'
 import HeaderInfo from './HeaderInfo'
 
-type Props = {}
-
-const Home = (props: Props) => {
+const Home = () => {
   return (
     <section className="text-[#171717] body-font">
       <div className="container px-5 pt-24 pb-14 mx-auto w-11/12">

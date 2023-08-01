@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
-const Current = (props: Props) => {
+const Current = () => {
   return (
     <div>Current</div>
   )

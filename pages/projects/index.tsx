@@ -2,9 +2,7 @@ import Layout from 'components/Layout'
 import ProjectInfo from 'components/ProjectInfo'
 import React from 'react'
 
-type Props = {}
-
-const Projects = (props: Props) => {
+const Projects = () => {
     return (
         <Layout>
             <ProjectInfo />

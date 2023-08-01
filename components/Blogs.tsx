@@ -1,8 +1,6 @@
 import React from 'react'
 
-type Props = {}
-
-const Blogs = (props: Props) => {
+const Blogs = () => {
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 pt-10 pb-24 mx-auto">
