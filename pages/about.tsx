@@ -11,13 +11,6 @@ const About = () => {
                             <div className="flex flex-col sm:flex-row mt-10">
                                 <div className="sm:w-1/3 text-center sm:pr-8 sm:py-8">
                                     <div className="w-44 h-44 rounded-full border border-black inline-flex items-center justify-center bg-gray-200 text-gray-400">
-                                        <img
-                                            src="https://media.licdn.com/dms/image/D5603AQHTBKPBaGQ55Q/profile-displayphoto-shrink_200_200/0/1689604170822?e=1696464000&v=beta&t=78NV9zW7h8soZyDmRf20mYmbEaECDdQ5JM5o0vFvT54"
-                                            alt="Picture of the author"
-                                            width={200}
-                                            height={200}
-                                            className="rounded-full"
-                                        />
                                     </div>
                                     <div className="flex flex-col items-center text-center justify-center">
                                         <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">Ashutosh Yadav</h2>

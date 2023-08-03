@@ -10,7 +10,6 @@ const Blogs = () => {
                 <div className="flex flex-wrap -m-4">
                     <div className="p-4 md:w-1/3">
                         <div className="h-full border-2 border-black rounded-[5px] drop-shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-white text-black overflow-hidden">
-                            <img className="h-56 w-full border-b-2 border-black object-cover object-center" src="https://dummyimage.com/720x400" alt="blog" />
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-bold mb-1">CATEGORY</h2>
                                 <h1 className="title-font text-lg font-medium  mb-2">The Catalyzer</h1>
