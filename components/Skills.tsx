@@ -38,6 +38,13 @@ const Skills = () => {
             label: 'GitHub',
             imageUrl: 'https://cdn.worldvectorlogo.com/logos/github-icon-1.svg',
         },
+        {
+            label: 'MERN Stack',
+            imageUrl: 'https://cdn.worldvectorlogo.com/logos/mern.svg',
+        }, {
+            label: 'Python',
+            imageUrl: 'https://cdn.worldvectorlogo.com/logos/python-5.svg',
+        }
     ];
 
     return (
