@@ -3,6 +3,8 @@ import { useRouter } from 'next/router';
 import Layout from 'components/Layout';
 import cards from 'components/cards';
 import Link from 'next/link';
+import banner from 'public/banner.png';
+import Image from 'next/image';
 
 const ProjectDetails = () => {
     const router = useRouter();
@@ -21,8 +23,8 @@ const ProjectDetails = () => {
                             Back to Projects
                         </a>
                     </Link>
-                    <img className="w-5/6 mb-10 h-96 object-cover object-center rounded-xl" alt="hero" src={
-                        projectData.image
+                    <Image className="w-5/6 mb-10 h-48 object-cover object-center rounded-xl" alt="hero" src={
+                        banner
                     } />
                     <div className="text-center lg:w-2/3 w-full">
                         <h1 className="title-font text-3xl mb-4 font-medium text-gray-900">{
