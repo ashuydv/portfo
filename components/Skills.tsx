@@ -49,11 +49,8 @@ const Skills = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
                     {skills.map((skill, index) => (
                         <React.Fragment key={index}>
-                            <div className="bg-white border-2 border-[#171717] rounded-[4px] drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] flex p-2 h-full items-center">
-                                <div className="w-10 h-10 p-2 rounded-[5px]">
-                                    <img src={skill.imageUrl} className="w-full h-full" alt={skill.label} />
-                                </div>
-                                <span className="title-font font-medium text-[#171717] mx-2">{skill.label}</span>
+                            <div className="bg-white border-2 border-[#171717] rounded-[4px] text-center justify-center drop-shadow-[4px_4px_0px_rgba(0,0,0,1)] flex p-2 py-3 h-full items-center">
+                                <span className="title-font font-medium text-[#171717]">{skill.label}</span>
                             </div>
                         </React.Fragment>
                     ))}

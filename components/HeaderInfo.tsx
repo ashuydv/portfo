@@ -10,7 +10,7 @@ const HeaderInfo = () => {
             <p className="lg:w-1/2 w-full font-medium leading-relaxed text-[#151515]">
                 Hello there! I'm passionate about crafting and developing products that make a real impact. As a product enthusiast and builder, I thrive on turning ideas into reality and leveraging technology to solve problems creatively.
             </p>
-        </div>
+        </div> 
     )
 }
 
