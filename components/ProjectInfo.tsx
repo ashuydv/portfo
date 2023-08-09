@@ -9,7 +9,7 @@ const ProjectInfo = () => {
     return (
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-12 mx-auto">
-                <div className="grid grid-cols-4 gap-5">
+                <div className="grid grid-cols-4 gap-4">
                     {cards.map((card, index) => (
                         <div key={index} className="">
                             <Link href={`/projects/${index}`} passHref>

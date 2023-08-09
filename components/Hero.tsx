@@ -12,11 +12,12 @@ const Home = () => {
       <div className="container px-5 pt-24 pb-14 mx-auto">
         <HeaderInfo />
         <div className="py-4">
-          <h2 className="text-2xl font-medium text-left text-[#171717] mb-8">Projects ...</h2>
-          <div className="flex flex-wrap -m-4">
+          <h2 className="text-[28px] font-bold text-left text-[#171717] mb-8">Projects ...</h2>
+          <div className="grid grid-cols-4 gap-4">
             {latestCards.map((card, index) => (
-              <div className="xl:w-1/4 md:w-1/2 p-4" key={index}>
-                <Card card={card} />
+              <div key={index}>
+                <Card card={card}
+                />
               </div>
             ))}
           </div>

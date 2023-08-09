@@ -5,10 +5,13 @@ const Blogs = () => {
         <section className="text-gray-600 body-font">
             <div className="container px-5 pt-10 pb-24 mx-auto">
                 <h2 className="text-2xl font-medium text-[#171717] mb-10">
-                    Our Blogs ...
+                    Blogs ...
                 </h2>
+                <h3>
+                    Coming Soon ...
+                </h3>
                 <div className="flex flex-wrap -m-4">
-                    <div className="p-4 md:w-1/3">
+                    {/* <div className="p-4 md:w-1/3">
                         <div className="h-full border-2 border-black rounded-[5px] drop-shadow-[5px_5px_0px_rgba(0,0,0,1)] bg-white text-black overflow-hidden">
                             <div className="p-6">
                                 <h2 className="tracking-widest text-xs title-font font-bold mb-1">CATEGORY</h2>
@@ -37,7 +40,8 @@ const Blogs = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
+
                 </div>
             </div>
         </section>

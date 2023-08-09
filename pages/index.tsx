@@ -5,16 +5,18 @@ import Skills from 'components/Skills'
 import Blogs from 'components/Blogs'
 import Layout from 'components/Layout'
 import CTA from 'components/CTA'
+import Current from 'components/Current'
 
 const Home = () => {
   return (
     <div>
       <Layout>
         <Hero />
-        <ServiceInfo />
         <Skills />
+        <Current />
+        <ServiceInfo />
         <Blogs />
-        <CTA/>
+        <CTA />
       </Layout>
     </div>
   )

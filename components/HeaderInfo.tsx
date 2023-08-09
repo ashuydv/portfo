@@ -2,15 +2,18 @@ import React from 'react'
 
 const HeaderInfo = () => {
     return (
-        <div className="flex flex-wrap w-full mb-20">
-            <div className="lg:w-1/2 w-full mb-6 lg:mb-0">
-                <h1 className="sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900">Ashutosh Yadav</h1>
-                <div className="h-1 w-20 bg-[#171717] rounded"></div>
+        <section className="text-black body-font">
+            <div className="container mx-auto flex px-5 pb-20 items-center justify-center flex-col">
+                <div className="text-center lg:w-2/3 w-full">
+                    <h1 className=" text-[64px] mb-4 font-semibold text-black">
+                        Ashutosh Yadav
+                    </h1>
+                    <p className="mb-8 text-[18px] leading-relaxed font-semibold">
+                        Hello there! I'm passionate about crafting and developing products that make a real impact. As a product enthusiast and builder, I thrive on turning ideas into reality and leveraging technology to solve problems creatively.
+                    </p> 
+                </div>
             </div>
-            <p className="lg:w-1/2 w-full font-medium leading-relaxed text-[#151515]">
-                Hello there! I'm passionate about crafting and developing products that make a real impact. As a product enthusiast and builder, I thrive on turning ideas into reality and leveraging technology to solve problems creatively.
-            </p>
-        </div> 
+        </section>
     )
 }
 
