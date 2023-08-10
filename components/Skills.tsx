@@ -12,7 +12,7 @@ import reactNative from 'public/icons/reactNative.svg';
 import css from 'public/icons/css.svg';
 import solana from 'public/icons/solana.png';
 import ethereum from 'public/icons/ethereum.svg';
-import googleAnalytics from 'public/icons/googleAnalytics.svg';
+import googleAnalytics from 'public/icons/googleanalytics.svg';
 
 const Skills = () => {
     const skills = [
