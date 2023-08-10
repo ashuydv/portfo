@@ -2,8 +2,7 @@
 
 /* can now reference my font */
 h1 {
-  font-family: 'Space Grotesk', sans-serif;
-  font-weight: 700;
+  font-family: 'Kanit', sans-serif;
 }
 
 h2,
@@ -15,6 +14,9 @@ h6 {
   font-weight: 700;
 }
 
-p,a,li,span {
+p,
+a,
+li,
+span {
   font-family: 'Instrument Sans', sans-serif;
 }

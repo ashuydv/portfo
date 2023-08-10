@@ -6,9 +6,9 @@ const CTA = () => {
         <section className="text-gray-600 body-font">
             <div className="container px-5 py-20 mx-auto">
                 <div className="lg:w-1/2 flex flex-col sm:flex-row sm:items-center items-start mx-auto">
-                    <h1 className="flex-grow sm:pr-16 text-2xl font-bold title-font text-gray-900">
+                    <h2 className="flex-grow sm:pr-16 text-2xl font-bold title-font text-gray-900">
                         Connect with me on social media
-                    </h1>
+                    </h2>
                     <Link
                         href="https://www.linkedin.com/in/ashuydv18/"
                     >

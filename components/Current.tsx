@@ -5,7 +5,7 @@ const Current = () => {
   return (
     <section className="text-[#171717] rounded-[10px] body-font">
       <div className="container px-5 py-12 mx-auto">
-        <h2 className="text-[28px] font-bold text-left text-[#171717] mb-10">
+        <h2 className="text-[28px] font-extrabold text-left text-[#171717] mb-10">
           Currently Working On ...
         </h2>
         <div className="grid grid-cols-2 gap-4">
