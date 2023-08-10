@@ -3,7 +3,7 @@ import React from 'react';
 type Props = {
     card: {
         title: string;
-        subtitle: string[] | string; // Accept either an array or a single string
+        subtitle: string[]; // Accept either an array or a single string
         content: string;
         color: string;
     };
